@@ -9,7 +9,7 @@
         nents</strong> and <strong>persistent data objects</strong>. Application logic components represent actions and define <br>
         methods that perform common tasks such as calculating the order price, customer credit card <br>
         billing and so on. Sessions beans model the application logic components as they contain the logic <br>
-        to perform the application tasks. <br/> <br>
+        to perform the application tasks. <br/><br>
 
         It is easy and simple to manage the business data present in large organizations as objects rather <br>
         than relational rows in a database. Business data when treated as objects are easy to handle and <br>
@@ -18,5 +18,25 @@
         <pre>Entities   are   not   associated   with   only   EJBs   and   can   be   used   in</pre>
         <strong>Java 2 Standard Edition (J2SE)</strong> environment. The differences between an Entity and a Session <br>
         bean are as follows:
+        <ul>
+            <li>Entities have a clint-visibility and a persistent identity that is distinct from their object<br>
+            reference. Each entity is distinct from the other because of their identities. Clients can use<br>
+            identities to pass the reference of an entity to other applications. However, this is not<br>
+            possible with Session beans.</li>
+            <li>Entity bean cannot be accessed remotely, whereas Session beans can be accessed locally as<br>
+            well as remotely.</li>
+            <li>Entity's lifetime is not dependent on the application's lifetime. Entity bean have a much<br>
+            longer lifetime than a client's session as it depends on how long the data is present in the <br>
+            database.</li>
+            <li>Entities represent data in a storage that is permanent as well as fault-tolerant and hence,<br>
+            they are long lasting and can survive application server or database crash. This data can be <br>
+            reconstructed in the memory. Hence, it can be said that entity is an in-memory<br>
+            representation of persistent data that:</li>
+            <ul>
+                <li>Can be loaded from persistent store and its field populated with the stored data</li>
+                <li>Can be modified in-memory to change the data values</li>
+                <li>Can be saved and correspondingly database is updated</li>
+            </ul>
+        </ul>
     </body>
 </html>
