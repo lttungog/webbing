@@ -1,0 +1,11 @@
+.impnote {
+    background-color: #FFFFCC;
+    border-top: dashed thin #FF0000;
+    border-bottom: ridge thick #0000FF;
+    border-right: dotted thin #FF8040;
+    border-left: inset medium #FF00FF;
+}
+
+ul {
+    list-style: square;
+}

@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+
+.carmodel {
+    border-style: solid;
+    border-color: red blue green yellow;
+}
