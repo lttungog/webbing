@@ -1,0 +1,11 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
