@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(101, 132, 170);
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(238, 242, 245);
+}
+
+h2 {
+    margin: 20px;
+    text-decoration: underline;
+    color: rgb(238, 242, 245);
+}
+
+img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+p, ul {
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(238, 242, 245);
+    border: 1px #ccc;
+    border-radius: 5px;
+}
+
+ol {
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(238, 242, 245);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: #555;
+}

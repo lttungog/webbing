@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(101, 132, 170);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: #555;
+}
