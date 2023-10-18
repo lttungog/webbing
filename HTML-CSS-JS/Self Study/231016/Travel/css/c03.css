@@ -101,7 +101,8 @@ p + h2 {
 
 #roomRate{
   text-decoration: line-through;
-  display: inline-block;
+  /* display: inline-block; */
+  display: block;
   float: left;
   padding-top: 10px;
 }
