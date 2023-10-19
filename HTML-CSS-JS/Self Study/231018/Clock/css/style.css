@@ -1,0 +1,28 @@
+.greeting {
+    font-size: 24px;
+}
+
+.morning {
+    color: greenyellow;
+}
+
+.afternoon {
+    color: blueviolet;
+}
+
+.evening {
+    color: coral;
+}
+
+.seconds span {
+    animation: changeColor 2s linear infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: red;
+    }
+    100% {
+        color: green;
+    }
+}

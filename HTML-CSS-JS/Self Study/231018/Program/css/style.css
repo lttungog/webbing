@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #23ad90;
+    background: url(../images/candle.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+}
+
+#content {
+    background-color: beige;
+    border: 3px double #31373f;
+    color: #31373f;
+    display: inline-block;
+    padding: 30px 50px;
+    margin: 20px auto 50px auto;
+    max-width: 580px;
+    min-height: 4em;
+    overflow: auto;
+    text-align: center;
+}
+
+.message {
+    font-weight: bold;
+    line-height: 1.5em;
+    height: 2em;
+    display: block;
+    clear: left;
+    min-width: 10em;
+}
+
+.message span {
+    font-weight: bold;
+}
+
+.number {
+    text-align: left;
+}
