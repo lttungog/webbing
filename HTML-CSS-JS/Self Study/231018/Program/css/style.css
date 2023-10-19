@@ -51,9 +51,9 @@ body {
     background-color: beige;
     border: 3px double #31373f;
     color: #31373f;
-    display: inline-block;
-    padding: 30px 50px;
-    margin: auto 50px auto;
+    display: block;
+    padding: 10px 20px;
+    margin: auto;
     max-width: 580px;
     min-height: 4em;
     overflow: auto;
