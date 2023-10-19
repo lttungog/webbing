@@ -31,7 +31,7 @@ elGTotal.textContent = gtotal;
 //----------------------------------------------------------------
 
 var product2 = 10;
-var price2 = 4;
+var price2 = 9;
 var total2 = price2 * product2;
 
 var elProduct2 = document.getElementById('product2');

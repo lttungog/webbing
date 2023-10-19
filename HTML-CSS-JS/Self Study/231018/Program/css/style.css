@@ -59,3 +59,21 @@ body {
     overflow: auto;
     text-align: center;
 }
+
+.name {
+    font-weight: bolder;
+    line-height: 1.5em;
+    height: 3em;
+    color: #23ad90;
+}
+
+h1 {
+    border-style: double;
+    background-color: beige;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+}
