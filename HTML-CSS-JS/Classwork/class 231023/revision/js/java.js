@@ -19,7 +19,7 @@ for (i = 0; i < itemslist.length; i++) {
     itemslist[i].className = 'dark';
 }
 
-var header = document.querySelector('h2');
+var header = document.querySelector('h1');
 var headerText = header.firstChild.nodeValue;
 var totalItems = itemslist.length;
 var newHeader = headerText + '<span>' + totalItems + '</span>';

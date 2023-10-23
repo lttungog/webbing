@@ -25,12 +25,11 @@ h2 {
     padding-top: 10px;
 }
 
-h2 span {
+h1 span {
     border-radius: 50%;
-    background-color: #000;
-    font-size: 15px;
+    background-color: #fff;
+    font-size: 30px;
     text-align: center;
-    display: inline-block;
     position: relative;
     top: -4px;
     height: 18px;
