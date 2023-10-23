@@ -42,7 +42,8 @@ h2 span {
 ul {
     background-color: #daedfe;
     padding: 0;
-    margin: 0;
+    /* margin-left: 250px;
+    margin-right: 250px; */
 }
 
 li {
@@ -62,4 +63,9 @@ li {
 .dark {
     background-color: #2b3b4b;
     color: #fff;
+}
+
+#page {
+    margin: 0 auto 0 auto;
+    max-width: 480px;
 }
