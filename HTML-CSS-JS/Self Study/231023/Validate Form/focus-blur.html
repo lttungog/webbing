@@ -2,14 +2,25 @@
 
 <html>
     <head>
-        <title>Focus Blur</title>
+        <title>JavaScript &amp; jQuery - Chapter 6: Events - Focus and Blur</title>
         <link rel="stylesheet" href="css/form.css">
     </head>
 
     <body>
-        <h1>logo</h1>
         <div id="page">
-            
+            <h1>Food of The Day</h1>
+            <h2>New Dish</h2>
+            <form method="post" action="http://www.fotd.org/meal">
+
+                <label for="username">Please fill in the dish's name: </label>
+                <input type="text" id="username" /><div id="feedback"></div>
+
+                <label for="password">Please enter the dish's origin country:</label>
+                <input type="password" id="password" />
+
+                <input type="submit" value="Sign up">
+            </form>
         </div>
+        <script src="js/focus-blur.js"></script>
     </body>
 </html>
