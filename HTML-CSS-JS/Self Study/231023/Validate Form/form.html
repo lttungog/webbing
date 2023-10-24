@@ -8,7 +8,25 @@
 
     <body>
         <div id="page">
-            <h1></h1>
+            <h1>logo</h1>
+            <form action="#" method="post" id="formSignup">
+                <h2>Food of The Day</h2>
+
+                <label for="package" class="selectbox"> Select a package: </label>
+                <select id="package">
+                    <option value="annual">1 year ($100)</option>
+                    <option value="monthly">1 month ($10)</option>
+                    <option value="weekly">1 week ($4)</option>
+                </select>
+                <div id="packageHint" class="tip"></div>
+
+                <input type="checkbox" id="terms">
+                <label for="terms" class="checkbox"> Our Terms and Conditions </label>
+                <div id="termsHint" class="warning"></div>
+
+                <input type="submit" value="Next">
+            </form>
         </div>
+        <script src="js/form.js"></script>
     </body>
 </html>

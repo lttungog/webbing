@@ -1,20 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body {
-  background-color: #000;
+  background-color: #6484aa;
   font-family: 'Oswald', 'Futura', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 #page {
-  background-color: #403c3b;
+  background-color: #6484aa;
   margin: 0 auto 0 auto;
 }
 
 /* Responsive page rules at bottom of style sheet */
 h1 {
-  background-image: url(../images/kinglogo.png);
+  background-image: url(../images/fotdlogo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
